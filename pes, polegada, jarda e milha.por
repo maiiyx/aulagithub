@@ -3,24 +3,21 @@ programa
 	
 	funcao inicio()
 	{
-	inteiro n1, n2, sub
+		
+		real pes, polegada, jardas, milhas
 
-	escreva("digite um numero:")
-	leia(n1)
+		escreva("Digite a medida em pes: ")
+		leia(pes)
 
-	escreva("digite um numero:")
-	leia(n2)
+		polegada = pes * 12
+		jardas = pes / 3
+		milhas = pes / 5280
 
-	se(n1>n2){
-	sub = n2 - n1
-	escreva("resposta:", sub)
 
-	}
-     senao{
-     	sub = n2 - n1
-     	escreva("resposta:", sub)
-     	
-     }
+		escreva(pes,"\npes convertida para polegadas eh: ", polegada)
+		escreva(pes,"\npes convertida para jardas eh: ", jardas)
+		escreva(pes,"\npes convertida para milhas eh: ", milhas)
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -28,8 +25,8 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 226; 
- * @PONTOS-DE-PARADA = 8;
+ * @POSICAO-CURSOR = 189; 
+ * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;

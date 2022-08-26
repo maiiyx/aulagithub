@@ -3,33 +3,19 @@ programa
 	
 	funcao inicio()
 	{
-	inteiro n1, n2, sub
+		inteiro i = 1
 
-	escreva("digite um numero:")
-	leia(n1)
-
-	escreva("digite um numero:")
-	leia(n2)
-
-	se(n1>n2){
-	sub = n2 - n1
-	escreva("resposta:", sub)
-
-	}
-     senao{
-     	sub = n2 - n1
-     	escreva("resposta:", sub)
-     	
+		para(i ; i<= 100; i++){}
+		     escreva("número em ordem crescente", i,"\n")
      }
-	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 226; 
- * @PONTOS-DE-PARADA = 8;
+ * @POSICAO-CURSOR = 72; 
+ * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
